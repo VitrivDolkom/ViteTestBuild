@@ -11,8 +11,8 @@ function App() {
             <BrowserRouter basename="/ViteTestBuild">
                 <Routes>
                     <Route path="/" index element={<Main />} />
-                    {/* <Route path="/header" element={<Header />} /> */}
-                    <Route path="/wrapper" element={<Header />} />
+                    <Route path="/header" element={<Header />} />
+                    <Route path="/wrapper" element={<div className="wrapper"></div>} />
                 </Routes>
             </BrowserRouter>
         </div>
